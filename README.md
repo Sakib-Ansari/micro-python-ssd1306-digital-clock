@@ -117,10 +117,8 @@ Digital Clock
   - Upload `ds3231.py` to `/lib` and run `/examples/ds3231_clock.py`.
 
 ## Documentation
-- `/docs/hardware_setup.md`: Detailed hardware connections.
-- `/docs/installation.md`: Firmware and library setup guide.
-- `/docs/usage.md`: Instructions to run and customize the project.
-- `/docs/troubleshooting.md`: Solutions for common issues.
+- `/assests/connection_diagram.png`: Hardware connections diagram.
+- `/docs/MicroPython Environment Setup for SSD1306 Digital Clock.md`: MicroPython setup instruction
 
 ## Troubleshooting
 - **Blank Display**: Check I2C connections, verify the OLED address with `i2c.scan()`, and ensure `ssd1306.py` is uploaded.
